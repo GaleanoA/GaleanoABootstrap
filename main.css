@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Anek Tamil', sans-serif;
+}
+.nav{
+   background-color: #000000;
+}
+
+.navegacion ul{
+   font-size: 20px;
+   list-style-type: none;
+   display: flex;
+   justify-content: flex-end;
+}
+
+ .navegacion ul li{
+   display: inline-block;
+   padding: 10px;
+   border: 1px solid black;
+   text-align: center;
+   color: #b2b2b2;
+   margin: 8px 8px;
+}
+nav ul li:hover{
+   background-color: #fffefe;
+}
+
+.contenedor{
+   width: 90%;
+   margin: auto;
+}
+
+header{
+   padding: 30px, 0;
+   color: #b2b2b2;
+}
+
+header .contenedor{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.pelicula-principal{
+   font-size: 16px;
+   min-height: 650px;
+   color: #fffefe;
+   background-image: url(./img/sonic2.jpg);
+   background-position: center center;
+   background-size: cover;
+   display: flex;
+   align-items: end;
+}
+
+.pelicula-principal .contenedor{
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+
+
+.peliculas1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding: 5px;
+}
+
+.peliculas1 img{
+   height: 300px;
+   width: 300px;
+   max-height: 400px;
+   max-width: 400px;
+   padding: 10px 0px;
+}
+
+.content1 h2{
+   font-family: 'Libre Franklin', sans-serif;
+   display: flex;
+   margin: 20px 0px 20px 20px;
+   font-size: 30px;
+   color: white;
+}
+
+.peli-portada{
+   width: 40%;
+   display: flex;
+   margin: auto;
+   justify-content: center;
+}
+
+.portada-index{
+   flex-wrap: wrap;
+   width: 100%;
+   margin: 0px auto 0px auto;
+}
+
+.body{    
+    background-color: black;  
+    background-attachment: fixed;    
+    background-size: cover;    
+    height: 600px;   
+    width: 100%;
+}
+
+.main-index{
+   display: flex;
+   justify-content: center;
+   width: 40%;
+   margin: 200px auto 100px auto;
+}
+
+.seccion-2{
+   background-image: url(./img/fondopg.jpg);
+   background-attachment: fixed;    
+   background-size: cover;    
+   height: 600px;   
+   width: 100%;
+}
+
+footer{
+   color: #b2b2b2;
+}
+
+.footerWrapper {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+   flex: 2;
+}
+
+.socialicon{
+   width: 20px;
+   padding: 8px;
+   border-radius: 50%;
+}
+
+.header1{
+   color: #b2b2b2;
+   text-transform: uppercase;
+   font-size: 30px;
+   text-align: center;
+   background-color: #500c0c;
+   margin-bottom: 100px;
+}
+
+.main-cart{
+   background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   height: 400px;
+}
+
+.peli-principal-estre{
+   font-size: 16px;
+   min-height: 650px;
+   color: #fffefe;
+   background-image: url(./img/moonfall.jpg);
+   background-position: center center;
+   background-size: cover;
+   display: flex;
+   align-items: end;
+}
+
+.h1-estr{
+   font-size: 50px;
+}
+
+
+.librodelaselva{
+   min-width: 270px;
+   transition: all 0.3 ease-in-out;
+}
+
+.librodelaselva a:hover{
+   transform: scale(2, 0.5);
+}
+
+.spiderman{
+   min-width: 270px;
+}
+
+.h1-estr{
+   font-size: 30px;
+   color: #b2b2b2;
+   text-transform: uppercase;
+   margin: 20px 10px 10px 30px;
+   font-family: 'Libre Franklin', sans-serif;
+}
+
+.estrenos{
+   display: flex;
+   justify-content: space-evenly;
+   margin: 0px auto 0px auto;
+   background-color: black;
+   padding: 20px 0;
+   height: 500px;
+   margin-bottom: -100px;
+}
+
+.titulos-estr{
+   color: #b2b2b2;
+   display: flex;
+}
+
+.titulo-libro{
+   margin: -50px 0 0 50px;
+   text-transform: uppercase;
+   font-size: 18px;
+}
+
+.titulo-spider{   
+   margin: -50px 0 0 80px;
+   text-transform: uppercase;
+   font-size: 18px;
+}
+
+.titulo-avengers{  
+    margin: -50px 0 0 80px;
+   text-transform: uppercase;
+   font-size: 18px;
+}
+
+.titulo-maleficent{
+   margin: -50px 0 0 70px;
+   text-transform: uppercase;
+   font-size: 18px;
+}
+
+.titulo-dragon{
+   margin: -50px 0 0 80px;
+   text-transform: uppercase;
+   font-size: 18px;
+}
+
+.titulo-yoantes{
+   margin: -50px 0 0 190px;
+   text-transform: uppercase;
+   font-size: 18px;
+}
+
+.estrenos img{
+   width: 70%;
+   height: 100%;
+   max-width: 300px;
+   max-height: 300px;
+}
+
+.seccion4 {
+   background-image: url(./img/fondo2.jpg);
+   background-attachment: fixed;    
+   background-size: cover;    
+   height: 300px;   
+   width: 100%;  
+}
+
+.body-peli1 {
+   background-color: black;
+}
+
+.main-peli1{
+   background-image: url(./img/fondolibro.jpg);
+   background-position: center;
+}
+
+.mid-peli1 {
+   margin: 0 auto;
+   width: 60%;
+   padding: 35px;
+   color: #ffffff;
+}
+
+
+.mid-peli1 .iframe-peli1 {
+   width: 562px;
+   margin: 0 auto;
+}
+.peli1 {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.peli1 h2 {
+   padding: 10px;
+   text-transform: uppercase;
+}
+
+.peli1 p {
+   padding: 10px;
+   text-indent: 10px;
+}
+
+
+
+
+.peli2-body {
+   background-color: black;
+}
+
+.main-peli2{
+   background-image: url(./img/fondospiderman.jpg);
+   background-position: center;
+   background-size: cover;
+   margin-bottom: 30px;
+}
+
+.mid-peli2 {
+   margin: 0 auto;
+   width: 60%;
+   padding: 35px;
+   color: #ffffff;
+}
+
+
+.mid-peli2 .iframe-peli2 {
+   width: 562px;
+   margin: 0 auto;
+}
+.peli2 {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.peli2 h2 {
+   padding: 10px;
+   text-transform: uppercase;
+}
+
+.peli2 p {
+   padding: 10px;
+   text-indent: 10px;
+}
+
+.form-contacto{
+   color: #b2b2b2;
+   background: #24303c;
+   width: 400px;
+   padding: 30px;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 4px;
+   margin-bottom: 100px;
+}
+
+.form-contacto h2{
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+
+.controls{
+   color: #b2b2b2;
+   width: 100%;
+   background-color: #24303c;
+   padding: 10px;
+   border-radius: 4px;
+   border: 1px solid #ffffff;
+   font-size: 18px;
+}
+
+.form-contacto p{
+   height: 20px;
+   text-align: center;
+   font-size: 18px;
+}
+
+.form-contacto a{
+   color: white;
+   text-decoration: none;
+}
+
+.form-contacto a:hover{
+   color: white;
+   text-decoration: underline;
+}
+
+.textarea{
+   color: white;
+   background: #24303c;
+   border: 1px solid #ffffff;
+   font-size: 15px;
+   width: 340px;
+   height: 100px;
+}
+
+.form-contacto .botons{
+   width: 100%;
+   background-color: #1f53c5;
+   border: none;
+   padding: 12px;
+   color: white;
+   margin: 16px 0;
+   font-size: 16px;
+}
+
+.enviar input:hover{
+   background-color: lightslategray;
+}
+
+.opciones{
+   margin-bottom: 25px;
+   margin: 0px 6px 12px 0px;
+}
+
+footer .container-footer{
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   margin: 10px auto;
+   margin-bottom: 50px;
+   padding-bottom: 50px;
+}
+
+footer .box-footer a{
+   color: #b2b2b2;
+   padding: 10px;
+}
+
+footer .box-footer h2{
+   margin-bottom: 30px;
+   margin-left: 40px;
+}
+
+.container-footer h1{
+   padding-top: 20px;
+}
+
+
+.logos{
+   width: 67px;
+}
+
+
+.slide img {
+   height: 65vh;
+}
+
+h5{
+   font-size: 30px;
+}
+
+.carousel-caption1 p{
+   font-size: 20px;
+
+}
+
+.container-fluid{
+   width: 80%;
+}
+
+.redes{
+   margin-left: 200px;
+}
+
+.terminos{
+   padding-left: 150px;
+}
+
+.logo{
+   padding-left: 100px;
+}
+
+.logo-top{
+   margin-left: -100px;
+   margin-right: 50px;
+}
