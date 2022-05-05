@@ -171,6 +171,7 @@ footer{
 
 .h1-estr{
    font-size: 50px;
+   background-color: #000000;
 }
 
 
@@ -456,6 +457,7 @@ h5{
 
 .container-fluid{
    width: 80%;
+
 }
 
 .redes{
@@ -473,4 +475,115 @@ h5{
 .logo-top{
    margin-left: -100px;
    margin-right: 50px;
+}
+
+
+.body-grid{
+   background-color: #000000;
+   width: 100%;
+   margin: 0 auto;
+   padding: 3px;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-areas: 
+   "header header"
+   "img-prin img-prin"
+   "main main"
+   "footer footer"
+     
+   ;
+
+}
+
+.img-prin{
+   grid-area: img-prin;
+   height: 65vh;
+   background-image: url(./img/moonfall.jpg);
+}
+
+.header-estr{
+   grid-area: header;
+}
+
+.estrenos-m{
+   grid-area: main;
+   background-color: #000000;
+}
+
+.footer-estr{
+   grid-area: footer;
+   background-color: #000000;
+}
+
+.body-peli {
+   background-color: black;
+}
+
+.main-peli3{
+   background-image: url(./img/avenger-fondo.jpg);
+}
+
+.mid-peli {
+   margin: 0 auto;
+   width: 60%;
+   padding: 35px;
+   color: #ffffff;
+}
+
+
+.mid-peli .iframe-peli {
+   width: 562px;
+   margin: 0 auto;
+}
+.peli {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.peli h2 {
+   padding: 10px;
+   text-transform: uppercase;
+}
+
+.peli p {
+   padding: 10px;
+   text-indent: 10px;
+   text-align: start;
+}
+
+.peli img{
+   width: 30%;
+}
+
+.avengers img{
+   width: 270px;
+}
+
+.main-peli4{
+   background-image: url(./img/la-abuela-fondo.jpg);
+   background-position: center;
+}
+
+.la-abuela img{
+   width: 280px;
+   height: 100%;
+}
+
+.main-peli5{
+   background-image: url(./img/red-fondo.jpg);
+   background-position: center;
+}
+
+.red img{
+   width: 280px;
+}
+
+.main-peli6{
+   background-image: url(./img/hastaque-fondo.jpg);
+}
+
+.hastaque img{
+   width: 280px;
 }
